@@ -1,0 +1,25 @@
+body,
+html,
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 50vh;
+    width: 27vw;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-title{
+    font-size: 2.2rem;
+    margin: 0.5rem 0; 
+    text-transform: uppercase;
+}
+.card-img{
+    width: 100%;
+}
