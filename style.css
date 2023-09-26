@@ -20,6 +20,7 @@ h2{
 h2:hover{ 
     background: rgb(238, 204, 130);
     transition: all 0.15s ease-out;
+    transform: scale(1.1);
 }
 .container{
     display: flex;
