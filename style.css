@@ -21,6 +21,9 @@ h2:hover{
     background: rgb(238, 204, 130);
     transition: all 0.15s ease-out;
     transform: scale(1.1);
+    transform:translate(-50%, -50%);
+    transform: rotate(1turn);
+    transition-duration:0.5s;
 }
 .container{
     display: flex;
