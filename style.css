@@ -5,23 +5,25 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-image: url("https://i.pinimg.com/originals/ba/6c/6f/ba6c6f1291b1643378878eb41fef94c7.jpg");
   background-size: cover;
+  padding-bottom: 30px;
 }
-h2 {
+.bears {
   margin-top: 5vh;
-  color: rgb(0, 0, 0);
+  color: rgb(131, 92, 92);
   background-color: rgb(255, 255, 255);
   text-align: center;
   border-radius: 25px;
   box-shadow: 5px 5px 5px rgb(48, 46, 46);
 }
-h2:hover {
+.bears:hover {
   background: rgb(238, 204, 130);
   transition: all 0.15s ease-out;
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 .container {
   display: flex;
@@ -33,11 +35,17 @@ h2:hover {
 img {
   width: 20.1vw;
   height: 27vh;
-  border-radius: 15px;  
-
+  border-radius: 15px;
+}
+img:hover {
+  transform: rotate(1);
 }
 h1 {
   text-align: center;
   font-size: 5vw;
   color: rgb(255, 255, 255);
+}
+figcaption {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
 }
