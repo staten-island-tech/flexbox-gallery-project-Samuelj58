@@ -70,4 +70,21 @@ h1:hover{
   100% {
     transform: rotate(360deg);
   }
+} 
+
+@media screen and (max-width: 1000px) {
+.bears{
+  width: 40%;
+}
+img{
+  width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+  .bears{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
 }
