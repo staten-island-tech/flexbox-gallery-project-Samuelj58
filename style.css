@@ -12,6 +12,11 @@ body {
   background-size: cover;
   padding-bottom: 30px;
 }
+.header img{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
 .bears {
   margin-top: 5vh;
   color: rgb(131, 92, 92);
@@ -25,6 +30,11 @@ body {
   transition: all 0.15s ease-out;
   transform: scale(1.15);
 }
+.bears figcaption:hover{
+  color: white;
+transition: color 0.5s ease-out;
+transform: rotate(360);
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -37,15 +47,27 @@ img {
   height: 27vh;
   border-radius: 15px;
 }
-img:hover {
-  transform: rotate(1);
-}
 h1 {
   text-align: center;
   font-size: 5vw;
   color: rgb(255, 255, 255);
+
 }
 figcaption {
   font-size: 20px;
   color: rgb(0, 0, 0);
+}
+h1:hover{
+  animation-name: rotate;
+  animation-duration: 1s;
+  color: red;
+  transition: color 1s ease-out;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
