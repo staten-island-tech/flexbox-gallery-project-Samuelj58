@@ -12,11 +12,6 @@ body {
   background-size: cover;
   padding-bottom: 30px;
 }
-.header img{
-  float: left;
-  width: 100px;
-  height: 100px;
-}
 .bears {
   margin-top: 5vh;
   color: rgb(131, 92, 92);
